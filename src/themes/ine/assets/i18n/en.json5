@@ -1,0 +1,10 @@
+{
+  // DSpace default: "All of DSpace"
+  "menu.section.browse_global": "Browse Repository",
+
+  // DSpace default: "Copyright"
+  "footer.copyright": "Copyright © {{ year }}",
+
+  // DSpace default: "DSpace Angular :: "
+  "repository.title.prefix": "Repository :: ",
+}

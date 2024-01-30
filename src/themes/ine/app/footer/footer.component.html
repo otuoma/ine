@@ -1,0 +1,113 @@
+<footer class="text-lg-start">
+  <div *ngIf="showTopFooter" class="top-footer bg-light-blue">
+    <div class=" container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase text-white font-weight-bold">Mapa del Sitio</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.ine.gob.gt/ine/portal-estadistico-1-0/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Estadísticas por temas
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ine.gob.gt/ine/precios-de-referencia/publicacion-mensual/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Servicios Estadísiticos
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ine.gob.gt/ine/publicaciones/noticias/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Noticias
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ine.gob.gt/ine/informacion-publica-de-oficio/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i>   Información pública
+              </a>
+            </li>
+            <li>
+              <a href="https://www.ine.gob.gt/ine/contactenos/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i>  Contáctenos
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase text-white font-weight-bold">Enlaces Importantes</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.albakeneth.gob.gt/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Alerta Alba Keneth
+              </a>
+            </li>
+            <li>
+              <a href="http://www.ine.gob.gt/ine/informacion-publica-de-oficio/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Información Pública de Oficio
+              </a>
+            </li>
+            <li>
+              <a href="http://guatempleo.siarh.gob.gt/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Portal Guatempleo
+              </a>
+            </li>
+            <li>
+              <a href="https://www.mineco.gob.gt/" class="text-white">
+                <i class="fas fa-angle-right fa-sm"></i> Ministerio de Economía
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-white font-weight-bold">Contáctanos</h5>
+          <ul style="list-style-type: none; padding-left: 0;">
+            <li> <i class="fas fa-map-marker fa-lg text-white"></i> &nbsp; 8a calle 9-55 zona 1, </li>
+            <li> &nbsp; &nbsp; &nbsp; Ciudad de Guatemala </li>
+            <li> <i class="fa fa-phone text-white"></i> +502 2315-4700 </li>
+            <li> <i class="fa fa-envelope text-white"> </i> infopublica@ine.gob.gt </li>
+            <li></li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="bottom-footer p-1 d-flex justify-content-center align-items-center text-white bg-ine-blue text-center">
+    <div class="content-container mt-4">
+      <p class="m-0">
+        <a class="text-white"
+           href="https://www.ine.gob.gt/"> Instituto Nacional de Estadística, </a>
+        {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}.
+      </p>
+      <ul class="footer-info list-unstyled small d-flex justify-content-center my-4">
+        <li class="mx-2">
+          <a class="text-white" href="javascript:void(0);"
+             (click)="showCookieSettings()">{{ 'footer.link.cookies' | translate}}</a>
+        </li> <span> | </span>
+        <li *ngIf="showPrivacyPolicy" class="mx-2">
+          <a class="text-white"
+             routerLink="info/privacy">{{ 'footer.link.privacy-policy' | translate}}</a>
+        </li> <span> | </span>
+        <li *ngIf="showEndUserAgreement" class="mx-2">
+          <a class="text-white"
+             routerLink="info/end-user-agreement">{{ 'footer.link.end-user-agreement' | translate}}</a>
+        </li> <span> | </span>
+        <li *ngIf="showSendFeedback$ | async" class="mx-2">
+          <a class="text-white"
+             routerLink="info/feedback">{{ 'footer.link.feedback' | translate}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Copyright -->
+</footer>

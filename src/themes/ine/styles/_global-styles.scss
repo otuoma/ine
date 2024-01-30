@@ -1,0 +1,105 @@
+// Add any global css for the theme here
+
+// imports the base global style
+@import '../../../styles/_global-styles.scss';
+:root {
+  --ine-blue: #0051B3;
+}
+a { color: var(--ine-blue);}
+.btn-primary {
+  color: #fff;
+  background-color: var(--ine-blue);
+  border-color: var(--ine-blue);
+}
+nav#headerNav{
+  background-color: var(--ine-blue) ;
+}
+
+nav#headerNav .navbar-nav a.nav-link, .navbar-buttons .dropdown-toggle {
+  color: #fff !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: var(--ine-blue);
+}
+
+//.jumbotron {
+//  background-image: url("/assets/ine/images/news_banner_1.jpg");
+//}
+div#header-navbar-wrapper {
+  border-bottom: 1px var(--ine-blue) solid !important;
+}
+.background-image {
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  background-size: cover;
+  min-height: 350px;
+}
+.background-image-1 {
+  background-image: url("/assets/ine/images/news_banner_1.jpg");
+  background-position: 50% 50%;
+}
+.background-image-2 {
+  background-image: url("/assets/ine/images/news_banner_2.jpg");
+  background-position: 50% 50%;
+}
+.background-image-3 {
+  background-image: url("/assets/ine/images/news_banner_3.png");
+  background-position: 50% 50%;
+}
+.background-image-4 {
+  background-image: url("/assets/ine/images/news_banner_4.jpg");
+  background-position: 50% 50%;
+}
+.background-image-5 {
+  background-image: url("/assets/ine/images/news_banner_5.jpg");
+  background-position: 50% 50%;
+}
+.background-image-6 {
+  background-image: url("/assets/ine/images/news_banner_6.jpg");
+  background-position: 50% 50%;
+}
+.background-image-7 {
+  background-image: url("/assets/ine/images/news_banner_7.jpg");
+  background-position: 50% 50%;
+}
+.background-image-8 {
+  background-image: url("/assets/ine/images/news_banner_8.jpg");
+  background-position: 50% 50%;
+}
+div.background-image .overlay {
+  background: #000;
+  background: linear-gradient(180deg,transparent,transparent 10%,rgba(0,0,0,.6110819328) 70%,rgba(0,0,0,.75));
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 70px;
+}
+.my-cs {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.bg-light-blue{
+  //background-color: #61c3fe;
+  background-color: #0066cc;
+}
+
+.bg-ine-blue{
+  background-color: var(--ine-blue);
+}
+.bg-light {
+  background-color: #e6e6e6 !important;
+}
+
+.clamp-default-3 .content::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #e6e6e6 70%);
+}
+#p-tl .mt-4, #p-tl .my-4 {
+  margin-top: .5rem !important;
+}
+#p-tl .mb-4, #p-tl .my-4 {
+  margin-bottom: .5rem !important;
+}
+ds-community-list-element .lead {
+  font-weight: 700;
+}
