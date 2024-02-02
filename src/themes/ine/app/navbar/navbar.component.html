@@ -11,6 +11,27 @@
         <li *ngFor="let section of (sections | async)">
           <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
         </li>
+        <li>
+          <div class="nav-item navbar-section text-md-center">
+            <a href="" class="nav-item nav-link" title="" >
+              {{'repository.menu.resources'| translate }}
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="nav-item navbar-section text-md-center">
+            <a href="" class="nav-item nav-link" title="" >
+              {{'repository.menu.repository'| translate }}
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="nav-item navbar-section text-md-center">
+            <a href="" class="nav-item nav-link" title="" >
+              {{'repository.menu.freeTraining'| translate }}
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
     <div class="navbar-buttons d-flex align-items-center gapx-1 text-white">

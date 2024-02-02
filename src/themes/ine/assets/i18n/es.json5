@@ -1,8 +1,12 @@
 {
 
-  // DSpace default: "DSpace Angular :: "
+  "menu.section.browse_global": "Navegar",
   "repository.title.prefix": "Repositorio :: ",
-  // DSpace default: "All of DSpace"
-  "footer.copyright": "Derechos Reservados © {{ year }}"
+
+  "repository.menu.resources": "Recursos",
+  "repository.menu.directory": "Directorio",
+  "menu.section.browse_global_communities_and_collections": "Colecciones",
+  "repository.menu.freeTraining": "Capacitación gratuita",
+  "footer.copyright": "Derechos Reservados © {{ year }}",
 
 }

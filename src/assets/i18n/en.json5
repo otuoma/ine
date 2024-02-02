@@ -2818,7 +2818,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "Browse Repository",
+  "menu.section.browse_global": "Browse",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -2832,7 +2832,7 @@
 
   "menu.section.browse_global_by_title": "By Title",
 
-  "menu.section.browse_global_communities_and_collections": "Communities & Collections",
+  "menu.section.browse_global_communities_and_collections": "Collections",
 
   "menu.section.control_panel": "Control Panel",
 
@@ -5233,4 +5233,12 @@
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
 
   "vocabulary-treeview.search.form.add": "Add",
+
+  "repository.menu.resources": "Resources",
+
+  "repository.menu.repository": "Repository",
+
+  "repository.menu.freeTraining": "Free Training",
+
+  "repository.menu.directory": "Directory",
 }

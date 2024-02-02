@@ -15,7 +15,6 @@ export class HomeNewsComponent extends BaseComponent implements OnInit{
     let image_classes = [
       'background-image background-image-1',
       'background-image background-image-2',
-      // 'background-image background-image-3',
       'background-image background-image-5',
       'background-image background-image-6',
       'background-image background-image-7',

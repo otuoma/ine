@@ -1,10 +1,10 @@
 {
   // DSpace default: "All of DSpace"
-  "menu.section.browse_global": "Browse Repository",
-
-  // DSpace default: "Copyright"
+  "menu.section.browse_global": "Browse",
+  "repository.menu.resources": "Resources",
+  "repository.menu.directory": "Directory",
+  "repository.menu.freeTraining": "Free Training",
+  "menu.section.browse_global_communities_and_collections": "Collections",
   "footer.copyright": "Copyright © {{ year }}",
-
-  // DSpace default: "DSpace Angular :: "
   "repository.title.prefix": "Repository :: ",
 }

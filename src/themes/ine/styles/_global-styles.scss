@@ -92,8 +92,8 @@ div.background-image .overlay {
 .bg-ine-blue{
   background-color: var(--ine-blue);
 }
-.bg-ine-green{
-  background-color: var(--ine-green);
+.bg-ine-green, .dropdown-menu{
+  background-color: var(--ine-green) !important;
 }
 .bg-light {
   background-color: #e6e6e6 !important;
@@ -111,3 +111,6 @@ div.background-image .overlay {
 ds-community-list-element .lead {
   font-weight: 700;
 }
+//.dropdown-menu .nav-item{
+//  background-color: ;
+//}

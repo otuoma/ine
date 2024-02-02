@@ -2816,7 +2816,7 @@
 
   "menu.section.browse_community_by_title": "Por titulo",
 
-  "menu.section.browse_global": "Todo DSpace",
+  "menu.section.browse_global": "Navegar",
 
   "menu.section.browse_global_by_author": "Por autor",
 
@@ -2828,7 +2828,7 @@
 
   "menu.section.browse_global_by_title": "Por titulo",
 
-  "menu.section.browse_global_communities_and_collections": "Comunidades",
+  "menu.section.browse_global_communities_and_collections": "Colecciones",
 
   "menu.section.control_panel": "Panel de control",
 
@@ -5215,4 +5215,12 @@
   "access-control-option-end-date": "Establecer acceso hasta",
 
   "access-control-option-end-date-note": "Escoja la fecha hasta la cuál se aplicarán las condiciones de acceso especificadas",
+
+  "repository.menu.resources": "Recursos",
+
+  "repository.menu.repository": "Directorio",
+
+  "repository.menu.freeTraining": "Capacitación gratuita",
+
+  "repository.menu.directory": "Directorio",
 }
