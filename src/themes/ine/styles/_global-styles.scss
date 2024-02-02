@@ -4,6 +4,7 @@
 @import '../../../styles/_global-styles.scss';
 :root {
   --ine-blue: #0051B3;
+  --ine-green: #78BE20;
 }
 a { color: var(--ine-blue);}
 .btn-primary {
@@ -12,7 +13,7 @@ a { color: var(--ine-blue);}
   border-color: var(--ine-blue);
 }
 nav#headerNav{
-  background-color: var(--ine-blue) ;
+  background-color: var(--ine-green) ;
 }
 
 nav#headerNav .navbar-nav a.nav-link, .navbar-buttons .dropdown-toggle {
@@ -83,9 +84,16 @@ div.background-image .overlay {
   //background-color: #61c3fe;
   background-color: #0066cc;
 }
+.bg-light-green{
+  //background-color: #61c3fe;
+  background-color: #24b300;
+}
 
 .bg-ine-blue{
   background-color: var(--ine-blue);
+}
+.bg-ine-green{
+  background-color: var(--ine-green);
 }
 .bg-light {
   background-color: #e6e6e6 !important;
