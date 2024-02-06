@@ -40,6 +40,7 @@ import {
 import { ServerCheckGuard } from './core/server-check/server-check.guard';
 import { MenuResolver } from './menu.resolver';
 import { ThemedPageErrorComponent } from './page-error/themed-page-error.component';
+import {LogospaginaComponent} from '../themes/ine/app/logospagina/logospagina.component';
 
 @NgModule({
   imports: [
@@ -65,6 +66,10 @@ import { ThemedPageErrorComponent } from './page-error/themed-page-error.compone
               .then((m) => m.HomePageModule),
             data: { showBreadcrumbs: false },
             canActivate: [EndUserAgreementCurrentUserGuard]
+          },
+          {
+            path: 'logospagina',
+            component: LogospaginaComponent,
           },
           {
             path: 'community-list',
